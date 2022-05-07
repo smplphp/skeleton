@@ -31,14 +31,6 @@
       "Smpl\\Skeleton\\Tests\\": "tests/"
     }
   },
-  "scripts": {
-    "ci": [
-      "@test-coverage",
-      "@infection",
-      "@psalm",
-      "@phpstan"
-    ]
-  },
   "config": {
     "allow-plugins": {
       "infection/extension-installer": true
