@@ -42,4 +42,4 @@ test:
 split: meta
 	git subtree split -P meta -b meta-split --squash -m "split: Splitting out the $(PACKAGE) meta package"
 	cd ../meta-$(PACKAGE)
-	git subtree pull -P src ../$(PACKAGE) meta-split -m "split: Updating the meta split"
+	git subtree pull -P src ../$(PACKAGE) meta-split --squash -m "split: Updating the meta split"
